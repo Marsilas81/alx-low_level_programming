@@ -1,0 +1,1 @@
+This directory corresponding to a specific project within the ALX Low Level Programming curriculum. These project are named according to their respective project names, facilitating easy identification and navigation.
