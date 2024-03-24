@@ -12,13 +12,13 @@
  */
 int main(void)
 {
-    char name[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    ssize_t len = strlen(name);
+	char name[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	ssize_t len = strlen(name);
 
-    if (write(STDOUT_FILENO, name, len) != len)
-    {
-        return (EXIT_FAILURE);
-    }
+	if (write(STDOUT_FILENO, name, len) != len)
+	{
+		return (EXIT_FAILURE);
+	}
 
-    return (EXIT_SUCCESS);
+	return (EXIT_SUCCESS);
 }
